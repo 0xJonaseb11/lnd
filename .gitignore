@@ -71,7 +71,6 @@ profile.tmp
 
 .DS_Store
 
-.vscode
 *.code-workspace
 
 # Coverage test
@@ -89,3 +88,5 @@ coverage.txt
 
 # All test data generated from rapid.
 */testdata
+config.bat
+node_modules

@@ -1,7 +1,16 @@
 {
-    "editor.tabSize": 8,
-    "editor.rulers": [
-        80
-    ],
-    "go.buildTags": "autopilotrpc chainrpc dev invoicesrpc neutrinorpc peersrpc signrpc walletrpc watchtowerrpc"
+  "editor.tabSize": 8,
+  "editor.rulers": [
+    80
+  ],
+  "go.buildTags": "autopilotrpc chainrpc dev invoicesrpc neutrinorpc peersrpc signrpc walletrpc watchtowerrpc",
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
